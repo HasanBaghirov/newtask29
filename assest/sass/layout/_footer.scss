@@ -1,0 +1,17 @@
+footer {
+    margin-top: 20px;
+    background-color: rgb(207, 207, 207);
+    height: 70px;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    div {
+        h1 {
+            font-size: medium;
+            color: rgb(125,128,130);
+
+        }
+    }
+}

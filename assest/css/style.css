@@ -1,0 +1,411 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: rgb(209, 209, 209);
+  width: 100vw;
+  height: 80px;
+}
+nav .icon_burger {
+  display: none;
+  border: 1px;
+  margin: 10px;
+  cursor: pointer;
+}
+nav div {
+  margin-left: 50px;
+  display: flex;
+  justify-content: center;
+  font-size: 20px;
+  font-weight: bolder;
+  cursor: pointer;
+}
+nav div:hover {
+  color: red;
+}
+nav ul {
+  margin-right: 50px;
+  display: flex;
+  justify-content: space-around;
+  gap: 20px;
+}
+nav ul li {
+  list-style: none;
+}
+nav ul li a {
+  text-decoration: none;
+  color: rgb(0, 0, 0);
+  font-size: 20px;
+  font-weight: bolder;
+}
+nav ul li a:hover {
+  color: red;
+}
+
+@media screen and (max-width: 414px) {
+  nav ul {
+    display: none;
+  }
+  nav .icon_burger {
+    display: block;
+  }
+}
+@media screen and (max-width: 700px) {
+  nav ul {
+    display: none;
+  }
+  nav .icon_burger {
+    display: block;
+    margin-right: 15px;
+  }
+}
+footer {
+  margin-top: 20px;
+  background-color: rgb(207, 207, 207);
+  height: 70px;
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+footer div h1 {
+  font-size: medium;
+  color: rgb(125, 128, 130);
+}
+
+main .section1 {
+  height: 600px;
+  background-image: url("/assest/photo/bg-masthead.jpg");
+}
+main .section1 div {
+  margin-top: 0px;
+  margin-bottom: 15px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+main .section1 div h1 {
+  margin-top: 100px;
+}
+main .section1 div h1 div {
+  font-size: 70px;
+  align-items: center;
+  color: rgb(255, 255, 255);
+}
+main .section1 div hr {
+  width: 120px;
+  height: 4px;
+  background-color: orangered;
+  margin-top: 20px;
+  border: 0px;
+  margin-bottom: 20px;
+}
+main .section1 div .text1 {
+  color: rgb(237, 237, 237);
+  font-size: 30px;
+}
+main .section1 div .text {
+  padding-left: 120px;
+  padding-right: 0px;
+  color: rgb(240, 240, 240);
+  font-size: 30px;
+}
+main .section1 li {
+  list-style: none;
+  display: inline-block;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+main .section1 li a {
+  display: inline-block;
+  text-decoration: none;
+  background-color: orangered;
+  border: 1px solid orangered;
+  padding: 20px;
+  border-radius: 25px;
+  color: white;
+}
+main .section2 .box {
+  background-color: rgb(244, 98, 58);
+  height: 400px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: white;
+}
+main .section2 .box .box2 {
+  margin-top: 80px;
+}
+main .section2 .box h3 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+main .section2 .box hr {
+  text-align: center;
+  width: 110px;
+  height: 4px;
+  background-color: rgb(255, 255, 255);
+  margin-top: 20px;
+  border: 0px;
+  margin-bottom: 20px;
+}
+main .section2 .box li {
+  list-style: none;
+  display: inline-block;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+main .section2 .box li a {
+  display: inline-block;
+  text-decoration: none;
+  background-color: rgb(201, 201, 201);
+  border: 1px solid rgb(199, 199, 199);
+  padding-left: 40px;
+  padding-right: 40px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  margin-top: 35px;
+  border-radius: 25px;
+  color: rgb(0, 0, 0);
+}
+main .section3 {
+  background-color: white;
+  height: 400px;
+}
+main .section3 .boxx {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin-bottom: 20px;
+  margin-top: 0px;
+}
+main .section3 .boxx div {
+  font-size: 25px;
+}
+main .section3 .boxx div h1 {
+  margin-top: 50px;
+}
+main .section3 .boxx hr {
+  width: 60px;
+  height: 6px;
+  background-color: orangered;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+main .section3 .all {
+  display: flex;
+  justify-content: space-around;
+}
+main .section3 .all .fa-solid {
+  display: flex;
+  justify-content: center;
+  font-size: 60px;
+}
+main .section3 .all h1 {
+  text-align: center;
+  font-size: 30px;
+  font-weight: lighter;
+}
+main .section3 .all p {
+  text-align: center;
+  font-size: 25px;
+  color: darkgrey;
+  opacity: 0.9;
+}
+main .section4 .container {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  gap: 0px;
+}
+main .section4 .container .box3 {
+  display: grid;
+  gap: 0px;
+  border: 1px solid;
+}
+main .section4 .container img {
+  width: 510px;
+  height: 200px;
+  cursor: pointer;
+}
+main .section5 .box4 {
+  margin-top: 0px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  width: 100vw;
+  height: 300px;
+  background-color: rgb(33, 37, 41);
+}
+main .section5 .box4 h1 {
+  color: white;
+  margin-bottom: 10px;
+}
+main .section5 li {
+  list-style: none;
+  margin-top: 40px;
+}
+main .section5 li a {
+  text-decoration: none;
+  font-weight: bold;
+  padding: 25px;
+  padding-left: 45px;
+  padding-right: 45px;
+  background-color: white;
+  border-radius: 50px;
+  color: black;
+}
+main .section5 li a:hover {
+  color: rgb(255, 255, 255);
+  background-color: rgb(33, 50, 199);
+}
+
+@media screen and (max-width: 700px) {
+  .section1 {
+    text-align: center;
+    box-sizing: border-box;
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .section1 div {
+    text-align: center;
+    box-sizing: border-box;
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .section1 div p {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .section1 li a {
+    display: flex;
+    flex-wrap: wrap;
+  }
+}
+@media screen and (max-width: 414px) {
+  .section1 {
+    text-align: center;
+  }
+  .section1 div {
+    text-align: center;
+  }
+}
+@media screen and (max-width: 912px) {
+  .section1 {
+    text-align: center;
+  }
+  .section1 div {
+    text-align: center;
+  }
+}
+@media screen and (max-width: 700px) {
+  .section2 {
+    text-align: center;
+  }
+  .section2 div {
+    text-align: center;
+  }
+}
+@media screen and (max-width: 414px) {
+  .section2 {
+    text-align: center;
+  }
+  .section2 div {
+    text-align: center;
+  }
+}
+@media screen and (max-width: 912px) {
+  .section2 {
+    text-align: center;
+  }
+  .section2 div {
+    text-align: center;
+  }
+}
+@media screen and (max-width: 712px) {
+  .section3 {
+    text-align: center;
+  }
+  .section3 div {
+    text-align: center;
+  }
+}
+@media screen and (max-width: 412px) {
+  .section3 {
+    text-align: center;
+  }
+  .section3 div {
+    text-align: center;
+  }
+}
+@media screen and (max-width: 912px) {
+  .section3 {
+    text-align: center;
+  }
+  .section3 div {
+    text-align: center;
+  }
+}
+form .containerf {
+  margin-top: 100px;
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+form .containerf hr {
+  margin-top: 40px;
+  margin-bottom: 20px;
+  width: 90px;
+  height: 4px;
+  background-color: orangered;
+}
+form .containerf p {
+  font-size: 30px;
+  color: darkgrey;
+  opacity: 0.6;
+}
+form .containerf .form-input {
+  margin-top: 35px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 10px;
+  border: 2px;
+}
+form .containerf .form-input button {
+  background-color: rgb(255, 118, 68);
+  border: none;
+  padding: 20px;
+  padding-left: 60px;
+  padding-right: 60px;
+  border-radius: 50px;
+  margin-bottom: 40px;
+  margin-top: 30px;
+}
+form .containerf .form-input .inpt-f {
+  width: 400px;
+  height: 40px;
+  font-size: larger;
+}
+form .containerf .boxx3 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 30px;
+}/*# sourceMappingURL=style.css.map */

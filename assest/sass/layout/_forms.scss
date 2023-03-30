@@ -1,0 +1,64 @@
+form {
+    .containerf {
+        margin-top: 100px;
+        width: 100vw;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+
+        hr {
+            margin-top: 40px;
+            margin-bottom: 20px;
+            width: 90px;
+            height: 4px;
+            background-color: orangered;
+        }
+
+        p {
+            font-size: 30px;
+            color: darkgrey;
+            opacity: 0.6;
+        }
+
+        .form-input {
+            margin-top: 35px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+            gap: 10px;
+            border: 2px;
+
+            button{
+                background-color: rgb(255, 118, 68);
+                border: none;
+                padding: 20px;
+                padding-left: 60px;
+                padding-right:60px ;
+                border-radius: 50px;
+                margin-bottom: 40px;
+                margin-top: 30px;
+            }
+
+
+            .inpt-f {
+                width: 400px;
+                height: 40px;
+                font-size: larger;
+            }
+
+        }
+      .boxx3{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        gap: 30px;
+       
+
+      }
+       
+    }
+
+}
